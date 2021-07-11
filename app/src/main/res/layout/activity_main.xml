@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvBackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#079527"
+        android:padding="20dp"
+        android:paddingEnd="50dp"
+        app:drawableRightCompat="@drawable/ic_vector__4_"
+        app:drawableLeftCompat="@drawable/ic_vector"
+        tools:ignore="RtlSymmetry" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#079527">
+
+        <ImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_carbon_play_outline" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#079527" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="160dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="35dp"
+            android:background="#C4C4C4" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_below="@id/view2"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="10dp"
+            android:background="#C4C4C4" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="60dp"
+            android:layout_height="13dp"
+            android:layout_below="@id/view3"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="10dp"
+            android:background="#C4C4C4" />
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="-14dp"
+            android:layout_toEndOf="@id/view2"
+            android:src="@drawable/ic_bi_bookmarks" />
+
+        <TextView
+            android:id="@+id/rect1"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/try_now"
+            android:textColor="#079527"
+            android:textSize="20sp"
+            app:drawableLeftCompat="@drawable/rectangle" />
+
+
+        <TextView
+            android:id="@+id/rect2"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginBottom="20dp"
+            android:background="#079527"
+            android:gravity="center"
+            android:text="@string/install"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:drawableStartCompat="@drawable/rectangle" />
+
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_marginTop="35dp"
+            android:layout_below="@id/rect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/shape" />
+
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_marginTop="35dp"
+            android:layout_below="@id/rect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/circle1"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/shape" />
+
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_marginTop="35dp"
+            android:layout_below="@id/rect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/circle2"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/shape" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:paddingHorizontal="2dp" />
+
+</LinearLayout>

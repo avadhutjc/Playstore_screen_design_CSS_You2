@@ -1,0 +1,4 @@
+com/masai/a428june_playstore_screen_design_css_you2/BuildConfig.java
+ com.masai.a428june_playstore_screen_design_css_you2.BuildConfig
+com/masai/a428june_playstore_screen_design_css_you2/MainActivity.java
+ com.masai.a428june_playstore_screen_design_css_you2.MainActivity
